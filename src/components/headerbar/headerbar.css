@@ -1,0 +1,67 @@
+.headerbar{
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+    .headerWrapper {
+        padding: 0 20px;
+        margin: 0 auto;
+        height: 52px;
+        /* border-bottom: 1px solid gray; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+        .logo{
+            flex: 1;
+            /* border: 1px solid gray; */
+        }
+
+        .timestamp{
+            flex: 1;
+            /* border: 1px solid gray; */
+            text-align: center;
+        }
+        .dateRange{
+            flex: 1;
+            /* border: 1px solid gray; */
+            text-align: right;
+            align-items: center;
+        }
+
+            .dateRangeButtonConteiner{
+                padding-top: 7px;
+                display: flex;
+                justify-content: right;
+                text-align: right;
+                -webkit-justify-content: right;
+                align-items: center;
+                /* border: 1px solid red; */
+            }
+
+                .dateRangeButton {
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                    background: none;
+                    border: none;
+                    background-image: url('./dateRangebutton/img/period.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    -webkit-app-region: no-drag;
+
+                }
+                
+                .dateRangeButton:hover {
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                    background: none;
+                    border: none;
+                    background-image: url('./dateRangebutton/img/period_hover.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
